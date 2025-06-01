@@ -40,6 +40,11 @@ Save as `your_results.csv` (or change `CSV` parameter).
 git clone https://github.com/SidSin0809/forestplotR.git
 cd forestplotR
 
+# recruitment.txt (dependencies & environment)
+install.packages(c(
+  "tidyverse","ggpubr","patchwork",
+  "svglite","showtext","RColorBrewer"
+))
 
 # run
 Rscript forestplotR.r \
