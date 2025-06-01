@@ -1,0 +1,13 @@
+# Required software
+R >= 4.1
+
+# CRAN packages
+tidyverse   (>= 2.0)
+ggpubr      (>= 0.6)
+patchwork   (>= 1.2)
+svglite     (>= 2.1)
+showtext    (>= 0.9)
+RColorBrewer(>= 1.1)   # pulled implicitly by ggplot2 but listed for clarity
+
+# Optional for larger jobs
+data.table  (>= 1.15)  # swap into the script if you need faster I/O
